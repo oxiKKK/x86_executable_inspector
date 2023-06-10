@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GUI\CGUI.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CGUIWidgets.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CThemeManager.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="processors\CX86PEProcessor.cpp">
+      <Filter>src\processors</Filter>
+    </ClCompile>
+    <ClCompile Include="CApplication.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CDebugConsole.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="CUtilityFuncs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="exein_pch.cpp" />
+    <ClCompile Include="GUI\CImGUIInternalLayer.cpp">
+      <Filter>src\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUI\CGUI.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\CGUIWidgets.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\CThemeManager.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="processors\IBaseProcessor.h">
+      <Filter>src\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="processors\CX86PEProcessor.h">
+      <Filter>src\processors</Filter>
+    </ClInclude>
+    <ClInclude Include="resource\resource.h">
+      <Filter>src\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\util\UtilByteBuffer.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\util\UtilNamedConstant.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\util\UtilSmartValue.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\util\UtilVector.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CDebugConsole.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtilityFuncs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="exein_pch.h" />
+    <ClInclude Include="GUI\CImGUIInternalLayer.h">
+      <Filter>src\GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0d414115-3143-4a1e-9690-5f49815ef01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GUI">
+      <UniqueIdentifier>{1dce4edf-a605-4bf7-b01b-f07e1e4886b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{3baa6f3e-796d-49e9-8626-bef46172d8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resource">
+      <UniqueIdentifier>{39f972dd-89b3-4d93-893a-62cb068b79d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\processors">
+      <UniqueIdentifier>{39e3695a-0cfd-482f-9d2d-6da32dfa3e39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource\x86executable_inspector.rc">
+      <Filter>src\resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\x86bini_ico.ico">
+      <Filter>src\resource</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
